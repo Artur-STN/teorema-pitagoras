@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../css/titulo.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="/js/verifica.js"></script>
+
+        <title>Teorema de Pitágoras</title>
+
+    </head>
+
+    <body>
+
+        <div id="div_titulo">
+
+            <h1 id="titulo">Teorema de Pitágoras</h1>
+
+            <a href="../index.html">HOME</a>        
+        </div>
+
+        <div id="menu">
+            
+            <div id="interface_menu">
+
+                <div class="div_cateto">
+                
+                    <label for="cateto-1"><p>Hipotenusa</p></label> <input type="number" placeholder="Hipotenusa" id="a">
+                
+                </div>
+
+                <div class="div_cateto">
+                
+                    <label for="cateto-2"><p>Primeiro Cateto</p></label> <input type="number" placeholder="Primeiro Cateto" id="b">
+                
+                </div>
+
+                <div class="div_cateto">
+                
+                    <label for="cateto-2"><p>Segundo Cateto</p></label> <input type="number" placeholder="Segundo Cateto" id="c">
+                
+                </div>
+
+                <div class="botao">
+
+                    <input type="button" value="CALCULAR" onclick="calcular()">
+
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div class="div_res">
+
+            <p id="res"></p>
+            
+            <p class="passos" id="passo1"></p>
+            <p class="passos" id="passo2"></p>
+            <p class="passos" id="passo3"></p>
+
+        </div>
+
+    </body>
+
+</html>

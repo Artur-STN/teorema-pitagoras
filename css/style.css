@@ -1,0 +1,137 @@
+#calcular {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 559.60px;
+
+    margin-top: 2rem;
+
+}
+
+#calcular div{
+
+    background: white;
+    color: black;
+
+    text-decoration: none;
+
+    font-size: 2rem;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    padding: 0.5rem 0.3rem;
+
+}
+
+#verifica{
+
+    background: #000;
+    color: white;
+
+    font-size: 2rem;
+    
+    text-align: center;
+    
+    width: 550px;
+
+    margin-top: 1rem;
+    padding: 0.5rem 0.3rem;
+
+    cursor: pointer;
+
+}
+
+.div_cateto {
+
+    margin: 1rem 0 1rem 0;
+
+}
+
+#menu p{
+
+    font-size: 2rem;
+
+    margin-top: 1rem;
+
+}
+
+
+input {
+    
+    outline: none;
+
+    width: 300px;
+
+    font-size: 2rem;
+
+    text-align: center;
+
+}
+
+::-webkit-input-placeholder {
+    color: var(--cor-txt);
+}
+
+:-moz-placeholder {
+    color: var(--cor-txt);
+}
+
+::-moz-placeholder {
+    color: var(--cor-txt);
+}
+
+:-ms-input-placeholder {
+    color: var(--cor-txt);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.div_res {
+    
+    display: block;
+    
+    background: rgb(0, 158, 221);
+
+    text-align: center;
+
+    font-family: arial;
+    font-size: 2rem;
+
+    margin: auto;
+
+    width: 650px;
+    
+}
+
+.div_res p span {
+
+    border-top: 3px solid;
+
+}
